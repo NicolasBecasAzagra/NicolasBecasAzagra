@@ -8,10 +8,11 @@
 # 📊 GitHub Stats:
 ![](https://streak-stats.demolab.com/?user=NicolasBecasAzagra&theme=codeSTACKr&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=NicolasBecasAzagra&theme=codeSTACKr&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
 <picture data-importer="pacman">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NicolasBecasAzagra/NicolasBecasAzagra/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NicolasBecasAzagra/NicolasBecasAzagra/pacman-output/pacman-contribution-graph.svg?game=pacman">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/NicolasBecasAzagra/NicolasBecasAzagra/pacman-output/pacman-contribution-graph.svg?game=pacman">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NicolasBecasAzagra/NicolasBecasAzagra/pacman-output/bomberman-contribution-graph-dark.svg?game=bomberman">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NicolasBecasAzagra/NicolasBecasAzagra/pacman-output/bomberman-contribution-graph.svg?game=bomberman">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/NicolasBecasAzagra/NicolasBecasAzagra/pacman-output/bomberman-contribution-graph.svg?game=bomberman">
 </picture>
 
 ###
