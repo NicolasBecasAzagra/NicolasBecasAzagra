@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" role="img" aria-label="Boot log: Nicolas Becas, Computer Engineer, open to work">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="290" viewBox="0 0 900 290" role="img" aria-label="Boot log: Nicolas Becas, Computer Engineer, open to work">
 <style>
-text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:26px;white-space:pre}
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:15px;white-space:pre}
 .prompt{fill:#3fb950;font-weight:700}
 .log{fill:#9da7b3}
 .status{fill:#58a6ff;font-weight:700}
@@ -10,16 +10,17 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
 @keyframes blink{50%{opacity:0}}
 @media (prefers-reduced-motion:reduce){.l,.cur{animation:none}}
 </style>
-<rect x="0.5" y="0.5" width="899" height="439" rx="16" fill="#0d1117" stroke="#30363d"/>
-<rect x="0.5" y="0.5" width="899" height="46" rx="16" fill="#161b22"/>
-<rect x="0.5" y="30" width="899" height="17" fill="#161b22"/>
-<circle cx="30" cy="24" r="7" fill="#ff5f56"/><circle cx="54" cy="24" r="7" fill="#ffbd2e"/><circle cx="78" cy="24" r="7" fill="#27c93f"/>
-<text x="450" y="30" text-anchor="middle" style="font-size:16px;fill:#7d8590">nicolas-becas — boot.log</text>
-<text x="40" y="112" class="prompt l" style="animation-delay:0.40s">nicolas@becas:~$ boot --profile</text>
-<text x="40" y="162" class="log l" style="animation-delay:1.10s">[ 0.000] education  BSc Computer Eng. 2026, GPA 8.7</text>
-<text x="40" y="212" class="log l" style="animation-delay:1.80s">[ 0.112] stack      rust python docker linux</text>
-<text x="40" y="262" class="log l" style="animation-delay:2.50s">[ 0.231] focus      ML pipelines, data, backend</text>
-<text x="40" y="312" class="log l" style="animation-delay:3.20s">[ 0.340] spoken     es native, en c1, fr b1</text>
-<text x="40" y="362" class="status l" style="animation-delay:3.90s">[ 0.450] status     OPEN TO WORK</text>
-<text x="40" y="412" class="cur" style="animation-delay:4.60s">█</text>
+<rect x="0.5" y="0.5" width="899" height="289" rx="12" fill="#0d1117" stroke="#30363d"/>
+<rect x="0.5" y="0.5" width="899" height="34" rx="12" fill="#161b22"/>
+<rect x="0.5" y="24" width="899" height="11" fill="#161b22"/>
+<circle cx="22" cy="18" r="5" fill="#ff5f56"/><circle cx="40" cy="18" r="5" fill="#ffbd2e"/><circle cx="58" cy="18" r="5" fill="#27c93f"/>
+<text x="450" y="22" text-anchor="middle" style="font-size:12px;fill:#7d8590">nicolas-becas — boot.log</text>
+<text x="30" y="62" class="prompt l" style="animation-delay:0.40s">nicolas@becas:~$ boot --profile</text>
+<text x="30" y="92" class="log l" style="animation-delay:1.10s">[    0.000] education  BSc Computer Engineering, 2026, GPA 8.7/10 ........ ok</text>
+<text x="30" y="122" class="log l" style="animation-delay:1.80s">[    0.112] languages  rust  python  docker  linux  ci ................... ok</text>
+<text x="30" y="152" class="log l" style="animation-delay:2.50s">[    0.231] focus      ml pipelines, data systems, backend ................ ok</text>
+<text x="30" y="182" class="log l" style="animation-delay:3.20s">[    0.340] projects   rabbit  urban-mobility-engine  +4 ................. ok</text>
+<text x="30" y="212" class="log l" style="animation-delay:3.90s">[    0.450] spoken     es native  en c1  fr b1 ............................ ok</text>
+<text x="30" y="242" class="status l" style="animation-delay:4.60s">[    0.560] status     OPEN TO WORK  entry level  open to relocation</text>
+<text x="30" y="272" class="cur" style="animation-delay:5.30s">█</text>
 </svg>
