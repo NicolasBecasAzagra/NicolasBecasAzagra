@@ -1,8 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(max-width: 600px)" srcset="assets/boot-mobile.svg">
-    <img src="assets/boot.svg" alt="Boot log: Nicolas Becas, Computer Engineer, open to work" width="900">
-  </picture>
+  <img src="assets/boot.svg" alt="Boot log: Nicolas Becas, Computer Engineer, open to work" width="900">
 </p>
 
 **Computer Engineer (BSc 2026). I build data and ML systems in Rust and Python and run them on Linux.**
