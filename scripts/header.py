@@ -5,24 +5,23 @@ from pathlib import Path
 
 LINES = [
     ("nicolas@becas:~$ boot --profile", "p"),
-    ("[    0.000] education  BSc Computer Engineering, 2026, GPA 8.7/10 ........ ok", "o"),
-    ("[    0.112] languages  rust  python  docker  linux  ci ................... ok", "o"),
-    ("[    0.231] focus      ml pipelines, data systems, backend ................ ok", "o"),
-    ("[    0.340] projects   rabbit  urban-mobility-engine  +4 ................. ok", "o"),
-    ("[    0.450] spoken     es native  en c1  fr b1 ............................ ok", "o"),
-    ("[    0.560] status     OPEN TO WORK  entry level  open to relocation", "s"),
+    ("[ 0.000] education  BSc Computer Eng. 2026", "o"),
+    ("[ 0.112] stack      rust python docker linux", "o"),
+    ("[ 0.231] focus      ML, data systems, backend", "o"),
+    ("[ 0.340] spoken     es native, en c1, fr b1", "o"),
+    ("[ 0.450] status     OPEN TO WORK", "s"),
 ]
 STEP = 0.7
-W, H = 900, 290
+W, H = 460, 250
 
 rows = []
 for i, (text, kind) in enumerate(LINES):
-    y = 62 + i * 30
+    y = 66 + i * 30
     cls = {"p": "prompt", "o": "log", "s": "status"}[kind]
     rows.append(
         f'<text x="30" y="{y}" class="{cls} l" style="animation-delay:{0.4 + i * STEP:.2f}s">{escape(text)}</text>'
     )
-cursor_y = 62 + len(LINES) * 30
+cursor_y = 66 + len(LINES) * 30
 cursor_delay = 0.4 + len(LINES) * STEP
 
 svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Boot log: Nicolas Becas, Computer Engineer, open to work">

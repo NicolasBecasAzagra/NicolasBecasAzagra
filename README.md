@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/boot.svg" alt="Boot log: Nicolas Becas, Computer Engineer, open to work" width="900">
+  <img src="assets/boot.svg" alt="Boot log: Nicolas Becas, Computer Engineer, open to work" width="460">
 </p>
 
 **Computer Engineer (BSc 2026). I build data and ML systems in Rust and Python and run them on Linux.**
@@ -17,20 +17,14 @@ Based in Zaragoza, Spain. Open to relocation and remote work.
 
 ## `$ ls ~/projects`
 
-<table>
-  <tr>
-    <td><a href="https://github.com/NicolasBecasAzagra/urban-mobility-engine"><img src="assets/cards/urban-mobility-engine.svg" alt="urban-mobility-engine" width="440"></a></td>
-    <td><a href="https://github.com/NicolasBecasAzagra/Rabbit"><img src="assets/cards/Rabbit.svg" alt="Rabbit" width="440"></a></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/NicolasBecasAzagra/ai-job-search"><img src="assets/cards/ai-job-search.svg" alt="ai-job-search" width="440"></a></td>
-    <td><a href="https://github.com/NicolasBecasAzagra/Agentic-Hedge-Found"><img src="assets/cards/Agentic-Hedge-Found.svg" alt="agentic-hedge-fund" width="440"></a></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/NicolasBecasAzagra/plain-web"><img src="assets/cards/plain-web.svg" alt="plain-web" width="440"></a></td>
-    <td><a href="https://github.com/NicolasBecasAzagra/polymarket-data-pipeline"><img src="assets/cards/polymarket-data-pipeline.svg" alt="polymarket-data-pipeline" width="440"></a></td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/NicolasBecasAzagra/urban-mobility-engine"><img src="assets/cards/urban-mobility-engine.svg" alt="urban-mobility-engine" width="340"></a>
+  <a href="https://github.com/NicolasBecasAzagra/Rabbit"><img src="assets/cards/Rabbit.svg" alt="Rabbit" width="340"></a>
+  <a href="https://github.com/NicolasBecasAzagra/ai-job-search"><img src="assets/cards/ai-job-search.svg" alt="ai-job-search" width="340"></a>
+  <a href="https://github.com/NicolasBecasAzagra/Agentic-Hedge-Found"><img src="assets/cards/Agentic-Hedge-Found.svg" alt="agentic-hedge-fund" width="340"></a>
+  <a href="https://github.com/NicolasBecasAzagra/plain-web"><img src="assets/cards/plain-web.svg" alt="plain-web" width="340"></a>
+  <a href="https://github.com/NicolasBecasAzagra/polymarket-data-pipeline"><img src="assets/cards/polymarket-data-pipeline.svg" alt="polymarket-data-pipeline" width="340"></a>
+</p>
 
 ## `$ lsmod`
 
