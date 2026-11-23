@@ -32,18 +32,6 @@ Based in Zaragoza, Spain. Open to relocation and remote work.
   </tr>
 </table>
 
-## `$ dmesg | tail`
-
-<!--LOG:START-->
-```text
-[2026-11-22] Rabbit: docs: the KVM session is ready and no accelerated number exists yet
-[2026-11-22] Rabbit: docs: the README shows the recorded boot log in black and white
-[2026-11-22] Rabbit: feat(website): the roadmap page shows the road to the standard
-[2026-11-18] Rabbit: fix(agent): bounded, exclusive and non-vacuous Linux test for the comp
-[2026-11-18] Rabbit: ci: print the whole adversary table of the Rabbit step
-```
-<!--LOG:END-->
-
 ## `$ lsmod`
 
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)

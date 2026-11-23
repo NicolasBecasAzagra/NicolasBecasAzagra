@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-"""Regenerate the profile assets: project cards and the recent-commit log.
+"""Regenerate the profile project cards.
 
 Standard library only. Reads data/projects.json (hand-written copy) and the
 public GitHub API. Uses GITHUB_TOKEN when present to avoid rate limits.
 """
 import json
 import os
-import re
 import sys
 import urllib.request
 from datetime import datetime
@@ -82,47 +81,5 @@ def build_cards():
         out.write_text(card_svg(project, language, pushed))
 
 
-def commit_log():
-    events = api(f"/users/{OWNER}/events/public?per_page=100")
-    lines = []
-    for event in events:
-        if event["type"] != "PushEvent":
-            continue
-        full_name = event["repo"]["name"]
-        repo = full_name.split("/")[-1]
-        day = event["created_at"][:10]
-        try:
-            commit = api(f"/repos/{full_name}/commits/{event['payload']['head']}")
-        except Exception:  # private, deleted or force-pushed away
-            continue
-        message = commit["commit"]["message"].splitlines()[0][:70]
-        message = re.sub(r"[`<>|\[\]]", "", message)
-        lines.append(f"[{day}] {repo}: {message}")
-        if len(lines) == 5:
-            break
-    return lines
-
-
-def update_readme():
-    try:
-        lines = commit_log()
-    except Exception as exc:
-        print(f"warn: commit log: {exc}", file=sys.stderr)
-        return
-    if not lines:
-        return
-    block = "```text\n" + "\n".join(lines) + "\n```"
-    readme = ROOT / "README.md"
-    text = readme.read_text()
-    new = re.sub(
-        r"<!--LOG:START-->.*?<!--LOG:END-->",
-        lambda _: f"<!--LOG:START-->\n{block}\n<!--LOG:END-->",
-        text,
-        flags=re.S,
-    )
-    readme.write_text(new)
-
-
 if __name__ == "__main__":
     build_cards()
-    update_readme()
