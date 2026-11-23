@@ -1,0 +1,62 @@
+[
+  {
+    "repo": "urban-mobility-engine",
+    "title": "urban-mobility-engine",
+    "tag": "BSc thesis",
+    "lines": [
+      "Native Rust engine for Madrid traffic.",
+      "S2 spatial index, per-cell delay stats,",
+      "live congestion anomaly detection."
+    ]
+  },
+  {
+    "repo": "Rabbit",
+    "title": "Rabbit",
+    "tag": "kernel",
+    "lines": [
+      "x86_64 kernel in Rust that speaks the",
+      "Linux userspace ABI, with an inference",
+      "runtime and an agent on top."
+    ]
+  },
+  {
+    "repo": "ai-job-search",
+    "title": "ai-job-search",
+    "tag": "Claude Code",
+    "lines": [
+      "Job application framework built on",
+      "Claude Code: evaluate postings, tailor",
+      "CVs, write letters, prep interviews."
+    ]
+  },
+  {
+    "repo": "Agentic-Hedge-Found",
+    "title": "agentic-hedge-fund",
+    "tag": "LangGraph",
+    "lines": [
+      "Multi-agent LangGraph pipeline with RAG",
+      "over SEC filings and a risk manager.",
+      "Alpaca paper trading only."
+    ]
+  },
+  {
+    "repo": "plain-web",
+    "title": "plain-web",
+    "tag": "SaaS",
+    "lines": [
+      "B2B SaaS that publishes SEO articles",
+      "daily. Next.js, Supabase, Stripe,",
+      "tests and CI on GitHub Actions."
+    ]
+  },
+  {
+    "repo": "polymarket-data-pipeline",
+    "title": "polymarket-data-pipeline",
+    "tag": "data eng",
+    "lines": [
+      "Async ingestion from the Polymarket API,",
+      "Spark batch transforms, Airflow",
+      "scheduling and a Streamlit dashboard."
+    ]
+  }
+]
